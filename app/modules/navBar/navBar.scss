@@ -1,0 +1,29 @@
+$shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+
+header {
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    padding: 12px;
+    color: white;
+    background-color: #4fc1e9;
+    box-shadow: $shadow;
+}
+    h1 {
+        display: inline-block;
+        text-shadow: $shadow;
+    }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    .description {
+        text-shadow: $shadow;
+        font-style: italic;
+        padding: 0;
+        margin: 0;
+    }

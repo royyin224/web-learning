@@ -1,0 +1,20 @@
+<header>
+    <h1>
+        <a ng-href="{{ navBar.siteRoot }}">
+            <span>{{ navBar.app.name }}</span>
+            <span>v{{ navBar.app.version }}</span>
+        </a>
+    </h1>
+    <h5 class="description">
+        <span>{{ navBar.app.description }}</span>
+    </h5>
+    <nav>
+        <ul>
+            <li ng-repeat="menu in navBar.menus">
+                <a ng-href="{{ menu.link }}">
+                    {{ menu.name }}
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>

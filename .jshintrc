@@ -1,0 +1,13 @@
+{
+    "camelcase"     : true,
+    "curly"         : true,
+    "strict"        : true,
+    "eqeqeq"        : true,
+    "debug"         : true,
+    "esnext"        : true,
+    "node"          : true,
+    "devel"         : true,
+    "globals"       : {
+        "ng"            : true
+    }
+}

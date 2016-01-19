@@ -1,0 +1,9 @@
+body {  
+    opacity: 0;
+    transition: opacity 1s ease;
+    background-color: lightgreen;
+}
+
+body.loaded {
+    opacity: 1;
+}
